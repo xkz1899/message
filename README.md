@@ -29,7 +29,7 @@ Message is a mobile and desktop messaging web-app using PERN Stack.
 Both should be installed and make sure postgreSQL is running.
 
 ```shell
-git clone https://github.com/xkz1899/store.git
+git clone https://github.com/xkz1899/message.git
 cd store
 ```
 
