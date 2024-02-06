@@ -1,0 +1,35 @@
+.wrap_input {
+	position: relative;
+	width: 100%;
+	height: 2.62rem;
+}
+
+.smile {
+	font-size: 1.2rem;
+	position: absolute;
+	top: 50%;
+	left: 1rem;
+	transform: translateY(-50%);
+	color: #aaaaaa;
+	background: transparent;
+	&:hover {
+		color: rgba(255, 255, 255, 0.377);
+	}
+	&:active {
+		color: #aaaaaa;
+	}
+}
+
+.message {
+	background: #191b1c;
+	width: 100%;
+	padding: 0.8rem 1rem;
+	padding-left: 3rem;
+	border-radius: 0.5rem;
+	color: #aaaaaa;
+}
+
+.picker {
+	transform: translateY(-100%);
+	position: absolute;
+}

@@ -1,0 +1,63 @@
+.wrap {
+	width: 100%;
+	background: #191b1c;
+	height: 3.5rem;
+	border-bottom: 1px solid rgba(148, 148, 148, 0.2823529412);
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.5rem;
+	min-height: 3.5rem;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+	column-gap: 0.5rem;
+	color: #fff;
+	background: transparent;
+	text-align: left;
+	svg {
+		font-size: 2.9rem;
+	}
+}
+.name {
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+.last_seen {
+	color: #b2aca2;
+	padding-top: 0;
+}
+
+.avatar {
+	font-size: 2.5rem;
+	width: 3rem;
+	height: 3rem;
+	min-width: 3rem;
+	min-height: 3rem;
+	border-radius: 50%;
+	object-fit: cover;
+	color: #fff;
+}
+
+.wrap__user {
+	display: flex;
+	align-items: center;
+	column-gap: 0.1rem;
+}
+
+.btn_back {
+	font-size: 1.5rem;
+	display: flex;
+	background: transparent;
+	color: #b2aca2;
+	&:hover {
+		color: #fff;
+	}
+	&:active {
+		color: #b2aca2;
+	}
+	@media (min-width: 801px) {
+		display: none;
+	}
+}

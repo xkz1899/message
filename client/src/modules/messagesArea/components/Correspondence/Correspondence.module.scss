@@ -1,0 +1,26 @@
+p {
+	padding: 0.5rem 1rem;
+	border-radius: 0.7rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	column-gap: 0.3rem;
+	line-height: 1.2;
+	white-space: pre-wrap;
+	word-break: break-word;
+	span {
+		font-size: 0.65rem;
+
+		word-break: keep-all;
+	}
+}
+
+.user {
+	background: #37287e;
+	align-self: end;
+}
+
+.other {
+	background: #191b1c;
+	align-self: start;
+}

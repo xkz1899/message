@@ -1,0 +1,16 @@
+.btn {
+	background: #2c1b7d;
+	color: #fff;
+	width: 100%;
+	padding: 0.8rem 1rem;
+	border-radius: 0.5rem;
+	&:hover {
+		background: #2b1b7da4;
+	}
+	&:active {
+		background: #2c1b7d;
+	}
+	&:focus {
+		background: #2b1b7da4;
+	}
+}

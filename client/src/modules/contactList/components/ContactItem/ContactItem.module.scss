@@ -1,0 +1,51 @@
+.item {
+	display: flex;
+	align-items: center;
+	column-gap: 0.2rem;
+	width: 100%;
+	color: #fff;
+	background: transparent;
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+
+	.avatar {
+		font-size: 2.5rem;
+		width: 3.5rem;
+		height: 3.5rem;
+		min-width: 3.5rem;
+		min-height: 3.5rem;
+		border-radius: 50%;
+		object-fit: cover;
+		color: #fff;
+	}
+	&:hover {
+		background-color: #2d3031;
+	}
+}
+
+.active {
+	background: #8774e1;
+	&:hover {
+		background: #8774e1cb;
+	}
+}
+
+.content {
+	width: 100%;
+}
+
+.message {
+	text-align: left;
+}
+
+.top_block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.login {
+	font-weight: 700;
+	font-size: 1.1rem;
+	word-break: keep-all;
+	white-space: break-spaces;
+}

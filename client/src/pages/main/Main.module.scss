@@ -1,0 +1,9 @@
+.main_wrap {
+	background: #171718;
+
+	display: grid;
+	grid-template-columns: 1fr 1.7fr;
+	@media (max-width: 800px) {
+		grid-template-columns: 1fr;
+	}
+}

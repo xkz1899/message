@@ -1,0 +1,179 @@
+.wrap {
+	width: 100%;
+	height: 3.5rem;
+	background: #191b1c;
+	border-bottom: 1px solid #3c3d3e;
+}
+
+.add {
+	position: absolute;
+	bottom: -5%;
+	right: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	background: #8774e1;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	font-size: 2rem;
+	input {
+		display: none;
+	}
+	label {
+		cursor: pointer;
+	}
+	&:hover {
+		background: #6b5db1;
+	}
+	&:active {
+		background: #8774e1;
+	}
+}
+
+.login {
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	padding: 1rem;
+	font-size: 1.2rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.login_name {
+	font-size: 2rem;
+	position: relative;
+}
+
+.change {
+	transform: translateX(-100%);
+	transform: scale(0);
+	margin-top: 0.5rem;
+	display: flex;
+	align-items: center;
+	padding: 0.3rem;
+	border-radius: 0.5rem;
+	transition: 0.5s;
+	&:hover {
+		background: rgba(255, 255, 255, 0.068);
+	}
+	input {
+		width: 100%;
+	}
+}
+
+.active {
+	transform: translateX(0);
+	transform: scale(1);
+}
+
+.change_svg {
+	color: #fff;
+	font-size: 1.5rem;
+	margin-left: 0.2rem;
+}
+
+.change_login {
+	background: transparent;
+	color: #fff;
+	padding: 0.5rem 1rem;
+	font-size: 1.3rem;
+}
+
+.save {
+	display: flex;
+	align-items: center;
+	background: transparent;
+	color: #fff;
+	font-size: 1.5rem;
+	&:hover {
+		color: rgba(255, 255, 255, 0.6);
+	}
+	&:active {
+		color: #fff;
+	}
+}
+
+.last_seen {
+	font-size: 0.7rem;
+	margin-top: 0.2rem;
+}
+
+.body {
+	height: calc(100vh - 3.5rem);
+	background: #191b1c;
+}
+
+.avatar {
+	font-size: 15rem;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #000;
+}
+
+.image {
+	position: relative;
+	height: 18rem;
+	border: 1px solid #3c3d3e;
+	img {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
+}
+//Header
+.settings_header {
+	padding: 0.5rem;
+	height: 3.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.edit {
+	padding: 0.5rem;
+	background: transparent;
+	color: #fff;
+	font-size: 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-self: end;
+	&:hover {
+		color: rgba(255, 255, 255, 0.705);
+	}
+	&:active {
+		color: #fff;
+	}
+}
+
+.block {
+	display: flex;
+	align-items: center;
+}
+
+.title {
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #fff;
+	margin-left: 1.5rem;
+}
+
+.back {
+	color: #fff;
+	background: transparent;
+	font-size: 1.5rem;
+	padding: 0.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	&:hover {
+		background: rgba(105, 105, 105, 0.2);
+		border-radius: 10rem;
+	}
+	&:active {
+		background: rgba(105, 105, 105, 0.4);
+	}
+}

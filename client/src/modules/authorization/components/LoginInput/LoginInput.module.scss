@@ -1,0 +1,31 @@
+.login {
+	position: relative;
+	width: 100%;
+}
+
+.login_input {
+	color: #aba398;
+	border: 1px solid #aba398;
+	background: transparent;
+	padding: 0.8rem 1rem;
+	border-radius: 0.5rem;
+	width: 100%;
+	&:focus {
+		border: 1px solid #8774e1;
+	}
+}
+
+.meaning {
+	transition: 0.3s;
+	color: #8774e1;
+	background: #191b1c;
+	position: absolute;
+	top: -1rem;
+	left: 1rem;
+	font-size: 0.8rem;
+	opacity: 0;
+}
+
+.active {
+	opacity: 1;
+}
