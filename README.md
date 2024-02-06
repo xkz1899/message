@@ -30,7 +30,7 @@ Both should be installed and make sure postgreSQL is running.
 
 ```shell
 git clone https://github.com/xkz1899/message.git
-cd store
+cd cloud
 ```
 
 Install the dependencies.
