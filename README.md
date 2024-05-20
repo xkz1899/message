@@ -1,4 +1,4 @@
-# Message
+# Message (In developing)
 
 Message is a mobile and desktop messaging web-app using PERN Stack.
 
