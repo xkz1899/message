@@ -19,6 +19,11 @@ class AuthService {
 				`Пользователь ${login} существует в базе данных.`
 			)
 		}
+		if (!fs.existsSync(path.resolve(__dirname, "..", "static"))) {
+			fs.mkdir(path.resolve(__dirname, "..", "static"), err => {
+				if (err) throw err
+			})
+		}
 		const hashPassword = bcrypt.hashSync(password, 5)
 		const user = await User.create({ login, password: hashPassword })
 		const roles = await Role.create({ userId: user.id })
