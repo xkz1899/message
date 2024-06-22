@@ -1,3 +1,5 @@
+const fs = require("fs")
+const path = require("path")
 const ApiError = require("../errors/ApiError")
 const bcrypt = require("bcrypt")
 const dtoUser = require("../dto/userDto")
